@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-PricesApplication<prices>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "senior.pe.prices.PricesApplication",
+            "projectName": "prices",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-PricesApplication<prices>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "senior.pe.prices.PricesApplication",
+            "projectName": "prices",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-PricesApplication<post>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "senior.pe.prices.PricesApplication",
+            "projectName": "post",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

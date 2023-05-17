@@ -1,0 +1,284 @@
+{
+	"info": {
+		"_postman_id": "6583550b-cfc6-44bd-96cf-46ceac8f4b36",
+		"name": "PRICES",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16723774"
+	},
+	"item": [
+		{
+			"name": "FIND PRICES",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8181/prices/findByParams?date=2020-06-14 10:00:00&productId=35455&brandId=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"prices",
+						"findByParams"
+					],
+					"query": [
+						{
+							"key": "date",
+							"value": "2020-06-14 10:00:00"
+						},
+						{
+							"key": "productId",
+							"value": "35455"
+						},
+						{
+							"key": "brandId",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "TEST 1",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8181/prices/findByParams?date=2020-06-14 10:00:00&productId=35455&brandId=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8181",
+							"path": [
+								"prices",
+								"findByParams"
+							],
+							"query": [
+								{
+									"key": "date",
+									"value": "2020-06-14 10:00:00"
+								},
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"cookie": [],
+					"body": "{\r\n    \"httpStatus\": \"OK\",\r\n    \"httpStatusCode\": 200,\r\n    \"reason\": \"OK\",\r\n    \"data\": [\r\n        {\r\n            \"brandId\": 1,\r\n            \"startDate\": \"2020-06-13T22:00:00.000+00:00\",\r\n            \"endDate\": \"2020-12-31T22:59:59.000+00:00\",\r\n            \"priceList\": 1,\r\n            \"productId\": 35455,\r\n            \"price\": 35.50\r\n        }\r\n    ],\r\n    \"timestamp\": \"05-17-2023 00:49:07\"\r\n}"
+				},
+				{
+					"name": "TEST 2",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"name": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8181/prices/findByParams?date=2020-06-14 16:00:00&productId=35455&brandId=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8181",
+							"path": [
+								"prices",
+								"findByParams"
+							],
+							"query": [
+								{
+									"key": "date",
+									"value": "2020-06-14 16:00:00"
+								},
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"cookie": [],
+					"body": "{\r\n    \"httpStatus\": \"OK\",\r\n    \"httpStatusCode\": 200,\r\n    \"reason\": \"OK\",\r\n    \"data\": [\r\n        {\r\n            \"brandId\": 1,\r\n            \"startDate\": \"2020-06-13T22:00:00.000+00:00\",\r\n            \"endDate\": \"2020-12-31T22:59:59.000+00:00\",\r\n            \"priceList\": 1,\r\n            \"productId\": 35455,\r\n            \"price\": 35.50\r\n        }\r\n    ],\r\n    \"timestamp\": \"05-17-2023 00:49:19\"\r\n}"
+				},
+				{
+					"name": "TEST 3",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8181/prices/findByParams?date=2020-06-14 21:00:00&productId=35455&brandId=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8181",
+							"path": [
+								"prices",
+								"findByParams"
+							],
+							"query": [
+								{
+									"key": "date",
+									"value": "2020-06-14 21:00:00"
+								},
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"cookie": [],
+					"body": "{\r\n    \"httpStatus\": \"OK\",\r\n    \"httpStatusCode\": 200,\r\n    \"reason\": \"OK\",\r\n    \"data\": [\r\n        {\r\n            \"brandId\": 1,\r\n            \"startDate\": \"2020-06-13T22:00:00.000+00:00\",\r\n            \"endDate\": \"2020-12-31T22:59:59.000+00:00\",\r\n            \"priceList\": 1,\r\n            \"productId\": 35455,\r\n            \"price\": 35.50\r\n        }\r\n    ],\r\n    \"timestamp\": \"05-17-2023 00:49:30\"\r\n}"
+				},
+				{
+					"name": "TEST 4",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8181/prices/findByParams?date=2020-06-15 10:00:00&productId=35455&brandId=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8181",
+							"path": [
+								"prices",
+								"findByParams"
+							],
+							"query": [
+								{
+									"key": "date",
+									"value": "2020-06-15 10:00:00"
+								},
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"cookie": [],
+					"body": "{\r\n    \"httpStatus\": \"OK\",\r\n    \"httpStatusCode\": 200,\r\n    \"reason\": \"OK\",\r\n    \"data\": [\r\n        {\r\n            \"brandId\": 1,\r\n            \"startDate\": \"2020-06-13T22:00:00.000+00:00\",\r\n            \"endDate\": \"2020-12-31T22:59:59.000+00:00\",\r\n            \"priceList\": 1,\r\n            \"productId\": 35455,\r\n            \"price\": 35.50\r\n        }\r\n    ],\r\n    \"timestamp\": \"05-17-2023 00:49:40\"\r\n}"
+				},
+				{
+					"name": "TEST 5",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8181/prices/findByParams?date=2020-06-16 21:00:00&productId=35455&brandId=1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8181",
+							"path": [
+								"prices",
+								"findByParams"
+							],
+							"query": [
+								{
+									"key": "date",
+									"value": "2020-06-16 21:00:00"
+								},
+								{
+									"key": "productId",
+									"value": "35455"
+								},
+								{
+									"key": "brandId",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"name": "Content-Type",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"cookie": [],
+					"body": "{\r\n    \"httpStatus\": \"OK\",\r\n    \"httpStatusCode\": 200,\r\n    \"reason\": \"OK\",\r\n    \"data\": [\r\n        {\r\n            \"brandId\": 1,\r\n            \"startDate\": \"2020-06-13T22:00:00.000+00:00\",\r\n            \"endDate\": \"2020-12-31T22:59:59.000+00:00\",\r\n            \"priceList\": 1,\r\n            \"productId\": 35455,\r\n            \"price\": 35.50\r\n        },\r\n        {\r\n            \"brandId\": 1,\r\n            \"startDate\": \"2020-06-15T14:00:00.000+00:00\",\r\n            \"endDate\": \"2020-12-31T10:59:59.000+00:00\",\r\n            \"priceList\": 3,\r\n            \"productId\": 35455,\r\n            \"price\": 38.95\r\n        }\r\n    ],\r\n    \"timestamp\": \"05-17-2023 00:49:50\"\r\n}"
+				}
+			]
+		}
+	]
+}
